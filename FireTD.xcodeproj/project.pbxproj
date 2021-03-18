@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6911FA74238ADF300037DAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FA73238ADF300037DAF1 /* AppDelegate.swift */; };
+		6911FA76238ADF300037DAF1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6911FA75238ADF300037DAF1 /* GameScene.sks */; };
+		6911FA7A238ADF300037DAF1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FA79238ADF300037DAF1 /* GameScene.swift */; };
+		6911FA7C238ADF300037DAF1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FA7B238ADF300037DAF1 /* GameViewController.swift */; };
+		6911FA7F238ADF300037DAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6911FA7D238ADF300037DAF1 /* Main.storyboard */; };
+		6911FA81238ADF300037DAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6911FA80238ADF300037DAF1 /* Assets.xcassets */; };
+		6911FA84238ADF300037DAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6911FA82238ADF300037DAF1 /* LaunchScreen.storyboard */; };
+		6911FA8F238ADF310037DAF1 /* FireTDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FA8E238ADF310037DAF1 /* FireTDTests.swift */; };
+		6911FA9A238ADF310037DAF1 /* FireTDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FA99238ADF310037DAF1 /* FireTDUITests.swift */; };
+		6911FAA8238AE6200037DAF1 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FAA7238AE6200037DAF1 /* Enemy.swift */; };
+		6911FAAA238AFD8C0037DAF1 /* Flame1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6911FAA9238AFD8C0037DAF1 /* Flame1.sks */; };
+		6911FAAC238B01540037DAF1 /* JSON_Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FAAB238B01540037DAF1 /* JSON_Decoder.swift */; };
+		6911FAB0238B084F0037DAF1 /* Flame2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6911FAAF238B084F0037DAF1 /* Flame2.sks */; };
+		6911FAB2238B0E700037DAF1 /* level1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6911FAB1238B0E700037DAF1 /* level1.json */; };
+		6911FAB4238B0F600037DAF1 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6911FAB3238B0F600037DAF1 /* Wave.swift */; };
+		69337142239F04F2007F8F67 /* VictoryScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69337141239F04F2007F8F67 /* VictoryScene.swift */; };
+		6957BC5E238C50BE0005C03A /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6957BC5D238C50BD0005C03A /* Ball.swift */; };
+		695CD38A239196270086895E /* ballStats.json in Resources */ = {isa = PBXBuildFile; fileRef = 695CD389239196270086895E /* ballStats.json */; };
+		69974DFC239F07B1009CD448 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69974DFB239F07B1009CD448 /* MenuScene.swift */; };
+		699A182E239FA03400B2F065 /* level2.json in Resources */ = {isa = PBXBuildFile; fileRef = 699A182D239FA03400B2F065 /* level2.json */; };
+		699A1830239FCAA700B2F065 /* Death.sks in Resources */ = {isa = PBXBuildFile; fileRef = 699A182F239FCAA700B2F065 /* Death.sks */; };
+		69A0D052239C523000C397A3 /* FireAoe.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69A0D051239C523000C397A3 /* FireAoe.sks */; };
+		69A0D054239C5CF900C397A3 /* Flame3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69A0D053239C5CF900C397A3 /* Flame3.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6911FA8B238ADF310037DAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6911FA68238ADF300037DAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6911FA6F238ADF300037DAF1;
+			remoteInfo = FireTD;
+		};
+		6911FA96238ADF310037DAF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6911FA68238ADF300037DAF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6911FA6F238ADF300037DAF1;
+			remoteInfo = FireTD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6911FA70238ADF300037DAF1 /* FireTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6911FA73238ADF300037DAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6911FA75238ADF300037DAF1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		6911FA79238ADF300037DAF1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6911FA7B238ADF300037DAF1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6911FA7E238ADF300037DAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6911FA80238ADF300037DAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6911FA83238ADF300037DAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6911FA85238ADF300037DAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6911FA8A238ADF310037DAF1 /* FireTDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireTDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6911FA8E238ADF310037DAF1 /* FireTDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireTDTests.swift; sourceTree = "<group>"; };
+		6911FA90238ADF310037DAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6911FA95238ADF310037DAF1 /* FireTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireTDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6911FA99238ADF310037DAF1 /* FireTDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireTDUITests.swift; sourceTree = "<group>"; };
+		6911FA9B238ADF310037DAF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6911FAA7238AE6200037DAF1 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		6911FAA9238AFD8C0037DAF1 /* Flame1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flame1.sks; sourceTree = "<group>"; };
+		6911FAAB238B01540037DAF1 /* JSON_Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_Decoder.swift; sourceTree = "<group>"; };
+		6911FAAF238B084F0037DAF1 /* Flame2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flame2.sks; sourceTree = "<group>"; };
+		6911FAB1238B0E700037DAF1 /* level1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = level1.json; sourceTree = "<group>"; };
+		6911FAB3238B0F600037DAF1 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		69337141239F04F2007F8F67 /* VictoryScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryScene.swift; sourceTree = "<group>"; };
+		6957BC5D238C50BD0005C03A /* Ball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		695CD389239196270086895E /* ballStats.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ballStats.json; sourceTree = "<group>"; };
+		69974DFB239F07B1009CD448 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		699A182D239FA03400B2F065 /* level2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = level2.json; sourceTree = "<group>"; };
+		699A182F239FCAA700B2F065 /* Death.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Death.sks; sourceTree = "<group>"; };
+		69A0D051239C523000C397A3 /* FireAoe.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireAoe.sks; sourceTree = "<group>"; };
+		69A0D053239C5CF900C397A3 /* Flame3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Flame3.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6911FA6D238ADF300037DAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6911FA87238ADF310037DAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6911FA92238ADF310037DAF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6911FA67238ADF300037DAF1 = {
+			isa = PBXGroup;
+			children = (
+				6911FA72238ADF300037DAF1 /* FireTD */,
+				6911FA8D238ADF310037DAF1 /* FireTDTests */,
+				6911FA98238ADF310037DAF1 /* FireTDUITests */,
+				6911FA71238ADF300037DAF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6911FA71238ADF300037DAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6911FA70238ADF300037DAF1 /* FireTD.app */,
+				6911FA8A238ADF310037DAF1 /* FireTDTests.xctest */,
+				6911FA95238ADF310037DAF1 /* FireTDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6911FA72238ADF300037DAF1 /* FireTD */ = {
+			isa = PBXGroup;
+			children = (
+				6911FA85238ADF300037DAF1 /* Info.plist */,
+				6911FA7D238ADF300037DAF1 /* Main.storyboard */,
+				6911FA82238ADF300037DAF1 /* LaunchScreen.storyboard */,
+				6911FA75238ADF300037DAF1 /* GameScene.sks */,
+				6911FAA9238AFD8C0037DAF1 /* Flame1.sks */,
+				6911FAAF238B084F0037DAF1 /* Flame2.sks */,
+				69A0D053239C5CF900C397A3 /* Flame3.sks */,
+				69A0D051239C523000C397A3 /* FireAoe.sks */,
+				699A182F239FCAA700B2F065 /* Death.sks */,
+				6911FA80238ADF300037DAF1 /* Assets.xcassets */,
+				6911FA73238ADF300037DAF1 /* AppDelegate.swift */,
+				6911FA7B238ADF300037DAF1 /* GameViewController.swift */,
+				69974DFB239F07B1009CD448 /* MenuScene.swift */,
+				6911FA79238ADF300037DAF1 /* GameScene.swift */,
+				69337141239F04F2007F8F67 /* VictoryScene.swift */,
+				6957BC5D238C50BD0005C03A /* Ball.swift */,
+				6911FAA7238AE6200037DAF1 /* Enemy.swift */,
+				6911FAB3238B0F600037DAF1 /* Wave.swift */,
+				6911FAAB238B01540037DAF1 /* JSON_Decoder.swift */,
+				6911FAB1238B0E700037DAF1 /* level1.json */,
+				699A182D239FA03400B2F065 /* level2.json */,
+				695CD389239196270086895E /* ballStats.json */,
+			);
+			path = FireTD;
+			sourceTree = "<group>";
+		};
+		6911FA8D238ADF310037DAF1 /* FireTDTests */ = {
+			isa = PBXGroup;
+			children = (
+				6911FA8E238ADF310037DAF1 /* FireTDTests.swift */,
+				6911FA90238ADF310037DAF1 /* Info.plist */,
+			);
+			path = FireTDTests;
+			sourceTree = "<group>";
+		};
+		6911FA98238ADF310037DAF1 /* FireTDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6911FA99238ADF310037DAF1 /* FireTDUITests.swift */,
+				6911FA9B238ADF310037DAF1 /* Info.plist */,
+			);
+			path = FireTDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6911FA6F238ADF300037DAF1 /* FireTD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6911FA9E238ADF310037DAF1 /* Build configuration list for PBXNativeTarget "FireTD" */;
+			buildPhases = (
+				6911FA6C238ADF300037DAF1 /* Sources */,
+				6911FA6D238ADF300037DAF1 /* Frameworks */,
+				6911FA6E238ADF300037DAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireTD;
+			productName = FireTD;
+			productReference = 6911FA70238ADF300037DAF1 /* FireTD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6911FA89238ADF310037DAF1 /* FireTDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6911FAA1238ADF310037DAF1 /* Build configuration list for PBXNativeTarget "FireTDTests" */;
+			buildPhases = (
+				6911FA86238ADF310037DAF1 /* Sources */,
+				6911FA87238ADF310037DAF1 /* Frameworks */,
+				6911FA88238ADF310037DAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6911FA8C238ADF310037DAF1 /* PBXTargetDependency */,
+			);
+			name = FireTDTests;
+			productName = FireTDTests;
+			productReference = 6911FA8A238ADF310037DAF1 /* FireTDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6911FA94238ADF310037DAF1 /* FireTDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6911FAA4238ADF310037DAF1 /* Build configuration list for PBXNativeTarget "FireTDUITests" */;
+			buildPhases = (
+				6911FA91238ADF310037DAF1 /* Sources */,
+				6911FA92238ADF310037DAF1 /* Frameworks */,
+				6911FA93238ADF310037DAF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6911FA97238ADF310037DAF1 /* PBXTargetDependency */,
+			);
+			name = FireTDUITests;
+			productName = FireTDUITests;
+			productReference = 6911FA95238ADF310037DAF1 /* FireTDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6911FA68238ADF300037DAF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "LANCASTER, TRISTAN";
+				TargetAttributes = {
+					6911FA6F238ADF300037DAF1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					6911FA89238ADF310037DAF1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 6911FA6F238ADF300037DAF1;
+					};
+					6911FA94238ADF310037DAF1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 6911FA6F238ADF300037DAF1;
+					};
+				};
+			};
+			buildConfigurationList = 6911FA6B238ADF300037DAF1 /* Build configuration list for PBXProject "FireTD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6911FA67238ADF300037DAF1;
+			productRefGroup = 6911FA71238ADF300037DAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6911FA6F238ADF300037DAF1 /* FireTD */,
+				6911FA89238ADF310037DAF1 /* FireTDTests */,
+				6911FA94238ADF310037DAF1 /* FireTDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6911FA6E238ADF300037DAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695CD38A239196270086895E /* ballStats.json in Resources */,
+				699A182E239FA03400B2F065 /* level2.json in Resources */,
+				6911FAB2238B0E700037DAF1 /* level1.json in Resources */,
+				6911FA7F238ADF300037DAF1 /* Main.storyboard in Resources */,
+				6911FAB0238B084F0037DAF1 /* Flame2.sks in Resources */,
+				6911FA76238ADF300037DAF1 /* GameScene.sks in Resources */,
+				6911FA81238ADF300037DAF1 /* Assets.xcassets in Resources */,
+				699A1830239FCAA700B2F065 /* Death.sks in Resources */,
+				6911FAAA238AFD8C0037DAF1 /* Flame1.sks in Resources */,
+				69A0D054239C5CF900C397A3 /* Flame3.sks in Resources */,
+				6911FA84238ADF300037DAF1 /* LaunchScreen.storyboard in Resources */,
+				69A0D052239C523000C397A3 /* FireAoe.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6911FA88238ADF310037DAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6911FA93238ADF310037DAF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6911FA6C238ADF300037DAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6911FAB4238B0F600037DAF1 /* Wave.swift in Sources */,
+				6911FAA8238AE6200037DAF1 /* Enemy.swift in Sources */,
+				6911FA7A238ADF300037DAF1 /* GameScene.swift in Sources */,
+				69337142239F04F2007F8F67 /* VictoryScene.swift in Sources */,
+				6911FA7C238ADF300037DAF1 /* GameViewController.swift in Sources */,
+				6911FAAC238B01540037DAF1 /* JSON_Decoder.swift in Sources */,
+				69974DFC239F07B1009CD448 /* MenuScene.swift in Sources */,
+				6957BC5E238C50BE0005C03A /* Ball.swift in Sources */,
+				6911FA74238ADF300037DAF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6911FA86238ADF310037DAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6911FA8F238ADF310037DAF1 /* FireTDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6911FA91238ADF310037DAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6911FA9A238ADF310037DAF1 /* FireTDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6911FA8C238ADF310037DAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6911FA6F238ADF300037DAF1 /* FireTD */;
+			targetProxy = 6911FA8B238ADF310037DAF1 /* PBXContainerItemProxy */;
+		};
+		6911FA97238ADF310037DAF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6911FA6F238ADF300037DAF1 /* FireTD */;
+			targetProxy = 6911FA96238ADF310037DAF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6911FA7D238ADF300037DAF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6911FA7E238ADF300037DAF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6911FA82238ADF300037DAF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6911FA83238ADF300037DAF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6911FA9C238ADF310037DAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6911FA9D238ADF310037DAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6911FA9F238ADF310037DAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8N9D7342A;
+				INFOPLIST_FILE = FireTD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blargh.FireTD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6911FAA0238ADF310037DAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8N9D7342A;
+				INFOPLIST_FILE = FireTD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blargh.FireTD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		6911FAA2238ADF310037DAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireTDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blargh.FireTDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireTD.app/FireTD";
+			};
+			name = Debug;
+		};
+		6911FAA3238ADF310037DAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireTDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blargh.FireTDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireTD.app/FireTD";
+			};
+			name = Release;
+		};
+		6911FAA5238ADF310037DAF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireTDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blargh.FireTDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_TARGET_NAME = FireTD;
+			};
+			name = Debug;
+		};
+		6911FAA6238ADF310037DAF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireTDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = blargh.FireTDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_TARGET_NAME = FireTD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6911FA6B238ADF300037DAF1 /* Build configuration list for PBXProject "FireTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6911FA9C238ADF310037DAF1 /* Debug */,
+				6911FA9D238ADF310037DAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6911FA9E238ADF310037DAF1 /* Build configuration list for PBXNativeTarget "FireTD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6911FA9F238ADF310037DAF1 /* Debug */,
+				6911FAA0238ADF310037DAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6911FAA1238ADF310037DAF1 /* Build configuration list for PBXNativeTarget "FireTDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6911FAA2238ADF310037DAF1 /* Debug */,
+				6911FAA3238ADF310037DAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6911FAA4238ADF310037DAF1 /* Build configuration list for PBXNativeTarget "FireTDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6911FAA5238ADF310037DAF1 /* Debug */,
+				6911FAA6238ADF310037DAF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6911FA68238ADF300037DAF1 /* Project object */;
+}

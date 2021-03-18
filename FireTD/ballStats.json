@@ -1,0 +1,56 @@
+[
+    {
+        "sprite": "ballGreen.png",
+        "description": "Wooden ball",
+        "cost": 1,
+        "maxHits": 1,
+        "flammable": true,
+        "density": 1,
+        "deathType": 0
+    },
+    {
+        "sprite": "ballGrey.png",
+        "description": "Steel ball",
+        "cost": 7,
+        "maxHits": 10,
+        "flammable": false,
+        "density": 2,
+        "deathType": 0
+    },
+    {
+        "sprite": "ballPurple.png",
+        "description": "Tar ball",
+        "cost": 5,
+        "maxHits": 5,
+        "flammable": true,
+        "density": 2,
+        "deathType": 0
+    },
+    {
+        "sprite": "ballYellow.png",
+        "description": "Bumper",
+        "cost": 10,
+        "maxHits": 2,
+        "flammable": true,
+        "density": 1,
+        "deathType": 1
+    },
+    {
+        "sprite": "ballRed.png",
+        "description": "Brazier",
+        "cost": 50,
+        "maxHits": 2,
+        "flammable": true,
+        "density": 1,
+        "deathType": 2
+    },
+    {
+        "sprite": "ballCyan.png",
+        "description": "Turret",
+        "cost": 50,
+        "maxHits": 2,
+        "flammable": true,
+        "density": 1,
+        "deathType": 3
+    }
+]

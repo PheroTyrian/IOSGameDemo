@@ -1,0 +1,193 @@
+{
+    "background": "checkerboard.png",
+    "startingGold": 1000,
+    "startingHealth": 3,
+    "waves": [
+        {
+            "path": [
+                {
+                    "x": -14,
+                    "y": 0
+                },
+                {
+                    "x": 7.5,
+                    "y": 0
+                }
+            ],
+            "enemies": [
+                {
+                    "sprite": "enemy3",
+                    "moveSpeed": 30,
+                    "maxHealth": 6,
+                    "flammable": true,
+                    "delay": 4,
+                    "number": 4
+                },
+                {
+                    "sprite": "enemy1",
+                    "moveSpeed": 40,
+                    "maxHealth": 1,
+                    "flammable": true,
+                    "delay": 2,
+                    "number": 8
+                },
+                {
+                    "sprite": "enemy2",
+                    "moveSpeed": 30,
+                    "maxHealth": 3,
+                    "flammable": false,
+                    "delay": 4,
+                    "number": 4
+                },
+                {
+                    "sprite": "enemy3",
+                    "moveSpeed": 30,
+                    "maxHealth": 6,
+                    "flammable": true,
+                    "delay": 4,
+                    "number": 4
+                }
+            ]
+        },
+        {
+            "path": [
+                {
+                    "x": -14,
+                    "y": 0
+                },
+                {
+                    "x": -10,
+                    "y": 0
+                },
+                {
+                    "x": -10,
+                    "y": 1
+                },
+                {
+                    "x": -9,
+                    "y": 1
+                },
+                {
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "x": 3,
+                    "y": -3
+                },
+                {
+                    "x": 7.5,
+                    "y": 0
+                }
+            ],
+            "enemies": [
+                {
+                    "sprite": "enemy3",
+                    "moveSpeed": 30,
+                    "maxHealth": 6,
+                    "flammable": true,
+                    "delay": 4,
+                    "number": 4
+                },
+                {
+                    "sprite": "enemy1",
+                    "moveSpeed": 40,
+                    "maxHealth": 1,
+                    "flammable": true,
+                    "delay": 2,
+                    "number": 8
+                },
+                {
+                    "sprite": "enemy2",
+                    "moveSpeed": 30,
+                    "maxHealth": 3,
+                    "flammable": false,
+                    "delay": 4,
+                    "number": 4
+                },
+                {
+                    "sprite": "enemy3",
+                    "moveSpeed": 30,
+                    "maxHealth": 6,
+                    "flammable": true,
+                    "delay": 4,
+                    "number": 4
+                }
+            ]
+        },
+        {
+            "path": [
+                {
+                    "x": -14,
+                    "y": 0
+                },
+                {
+                    "x": -10,
+                    "y": 0
+                },
+                {
+                    "x": -10,
+                    "y": 1
+                },
+                {
+                    "x": 6,
+                    "y": 2
+                },
+                {
+                    "x": 6,
+                    "y": 7
+                },
+                {
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "x": 3,
+                    "y": -3
+                },
+                {
+                    "x": 7.5,
+                    "y": 0
+                }
+            ],
+            "enemies": [
+                {
+                    "sprite": "enemy2",
+                    "moveSpeed": 30,
+                    "maxHealth": 3,
+                    "flammable": false,
+                    "delay": 4,
+                    "number": 4
+                },
+                {
+                    "sprite": "enemy1",
+                    "moveSpeed": 40,
+                    "maxHealth": 1,
+                    "flammable": true,
+                    "delay": 2,
+                    "number": 8
+                },
+                {
+                    "sprite": "enemy2",
+                    "moveSpeed": 30,
+                    "maxHealth": 3,
+                    "flammable": false,
+                    "delay": 4,
+                    "number": 4
+                },
+                {
+                    "sprite": "enemy3",
+                    "moveSpeed": 30,
+                    "maxHealth": 6,
+                    "flammable": true,
+                    "delay": 4,
+                    "number": 4
+                }
+            ]
+        }
+    ]
+}
